@@ -33,7 +33,7 @@ struct ContentView: View {
                             VStack(alignment: .leading){
                                 ChartLabel(totalExpenses.formatted(.currency(code: "USD")) ,type: .title, format: "$%.02f")
                                 LineChart()
-                            }
+                            } 
                             .background(Color.systemBackground)
                         }
                         .data(data)
